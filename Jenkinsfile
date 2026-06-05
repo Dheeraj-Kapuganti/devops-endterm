@@ -1,15 +1,8 @@
-
-
 pipeline {
     agent any
 
     stages {
 
-        stage('Checkout') {
-            steps{
-                bat 'scm checkout'
-            }
-        }
             
         stage('Build') {
             steps {
